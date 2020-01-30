@@ -1,5 +1,5 @@
 a=list(map(int,input().split()))
-# Input should be sparated by space
+# Input should be separated by space
 # e.g >>3 5 2 1 6 4
 if len(a)==2:
     a.sort()
