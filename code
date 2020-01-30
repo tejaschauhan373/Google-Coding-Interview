@@ -8,4 +8,6 @@ for i in range(0,len(a)-2,2):
             a[i+1],a[i + 2]=a[i+2],a[i + 1]
     elif(a[i+1]<a[i+2]):
         a[i + 1], a[i + 2] = a[i + 2], a[i + 1]
+if len(a)//2!=0 and a[-2]>a[-1] and a[-3]>a[-2]:
+    a[-2],a[-1]=a[-1],a[-2]
 print(a)
